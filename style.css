@@ -6,7 +6,8 @@
 .navbar {
     padding: 0;
 }
-.navbar img {
+
+img {
     max-width: 100%;
 }
 
