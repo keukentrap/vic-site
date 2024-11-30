@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}} - {{ site.title }}</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="{{ "assets/normalize.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "assets/skeleton.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "assets/style.css" | relative_url }}">
+  </head>
+  <body>
+  <header role="banner">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- if page_paths -%}
+    <nav>
+      <div class="navbar">
+        <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="logo">
+          <a href="{{ "/" | relative_url }}"><img src="{{ "assets/images/wapen-cropped.png" | relative_url }}"></a>
+          </div>
+            <div class="menu-items">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+                <a class="page-link" href="{{ my_page.url | relative_url }}"><li>{{ my_page.title | escape }}</li></a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </nav>
+    {%- endif -%}
+    </header>
+    <div class="content container" aria-label="Content" >
+      <div class="row">
+        <div class="column">
+        {{ content }}
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
