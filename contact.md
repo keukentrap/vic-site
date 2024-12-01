@@ -4,7 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 
-Het bestuur der heerendispuut Victoria incorporata zetelt te Wilhelminasingel 9 te Nijmegen. Contactinformatie vindt U hieronder.
+# Contact
+
+Het bestuur der heerendispuut Victoria incorporata zetelt te Wilhelminasingel 9 te Nijmegen. Contactinformatie vindt U hieronder. Voor informele vragen, complimenten en opmerkingen kunt ook een bericht sturen naar onze [instagram](https://www.instagram.com/victoria.incorporata/direct).
 
 
 ### Preases
