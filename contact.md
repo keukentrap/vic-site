@@ -15,8 +15,11 @@ Dhr. van Maanen
 
 ### Ab actiaat
 
-Dhr. Bronkhorst\\
+Dhr. Hensen\\
 abactisvic at gmail.com
+
+Oude groenewoudseweg 160 k11\\
+6524VG, Nijmegen
 
 ### Quaestoraat
 
